@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/alam-shahul/medlingual/issues"
   },
-  "homepage": "https://github.com/alam-shahul/medlingual#readme"
+  "homepage": "https://github.com/alam-shahul/medlingual#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
