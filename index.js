@@ -1,20 +1,18 @@
-const express = require('express');
-const app = express();
-var http = require('http');
+var express = require('express');
+var app = express();
 
-var port = normalizePort(process.env.PORT || '3000');
-app.set('port', port);
+app.set('port', (process.env.PORT || 3000));
 
-// app.get('/', function (req, res) {
-//   res.send('Hello World!')
-// })
+app.use(express.static(__dirname + '/public'));
 
-var server = http.createServer(app);
+// views is directory for all template files
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
 
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
+app.get('/', function(request, response) {
+  response.render('index');
+});
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
-})
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
