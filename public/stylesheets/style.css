@@ -1,0 +1,122 @@
+/***** Main *****/
+.big-container {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+  height: calc(100% - 80px);  
+}
+/***** Section Backgrounds *****/
+.section {
+  text-align: center;
+}
+#board {
+  padding: 30px 30px 30px 30px;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#24BE62, endColorstr=#196939);
+  background: -moz-linear-gradient(top, #24BE62 0%, #196939 80%);
+  background: linear-gradient(top, #24BE62 0%, #196939 80%);
+  background: -webkit-linear-gradient(top, #24BE62 0%, #196939 80%);
+  background: -o-linear-gradient(top, #24BE62 0%, #196939 80%);
+  background: -ms-linear-gradient(top, #24BE62 0%, #196939 80%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#24BE62), color-stop(80%,#196939));
+}
+#about {
+  padding: 30px 30px 30px 30px;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#AC82B8, endColorstr=#725A79);
+  background: -moz-linear-gradient(top, #AC82B8 0%, #725A79 80%);
+  background: linear-gradient(top, #AC82B8 0%, #725A79 80%);
+  background: -webkit-linear-gradient(top, #AC82B8 0%, #725A79 80%);
+  background: -o-linear-gradient(top, #AC82B8 0%, #725A79 80%);
+  background: -ms-linear-gradient(top, #AC82B8 0%, #725A79 80%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#AC82B8), color-stop(80%,#725A79));
+}
+.profilephoto {
+  height: 200px;
+}
+
+/***** Navbar *****/
+.navbar {
+  background-color: white;
+  color: black;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 1001;
+  border-radius: 0px;
+}
+.nav-title {
+  font-family: 'Rajdhani', sans-serif;
+}
+.logo {
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.logo-text {
+  height: 80px;
+  padding-left: 20px;
+  font-size: 3em;
+  display:inline-block;
+  position:absolute;
+  line-height:80px;
+  top: 0px;
+  left: 70px;
+  font-family:'Unica One', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.left-nav {
+  position: absolute;
+  height: 80px;
+  top:0px;
+  left:0px;
+}
+
+.right-nav {
+  position: absolute;
+  height: 80px;
+  top:0px;
+  right:0px;
+}
+
+.right-nav li {
+  display:inline-block;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.nav-link a { 
+  line-height: 80px;
+  padding: 0 20px 0 20px;
+  text-decoration: none;
+  color:black;
+  height:80px;
+//  display:inline-block;
+}
+
+.nav-link a:hover {
+  background-color: #131b75;
+  color:white;
+}
+
+.right-nav li.icon {
+  display:none;
+}
+
+@media screen and (max-width:900px) {
+  .right-nav li {display: none;}
+  .right-nav li.icon {
+     position: fixed;
+     display: inline-block;
+     line-height: 80px;
+     padding-right: 30px;
+     top:0;
+     right: 0;
+  }
+}
