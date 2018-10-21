@@ -43,22 +43,22 @@
 .green-gradient {
   padding: 30px 30px 30px 30px;
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#24BE62, endColorstr=#196939);
-  background: -moz-linear-gradient(top, #24BE62 0%, #196939 80%);
-  background: linear-gradient(top, #24BE62 0%, #196939 80%);
-  background: -webkit-linear-gradient(top, #24BE62 0%, #196939 80%);
-  background: -o-linear-gradient(top, #24BE62 0%, #196939 80%);
-  background: -ms-linear-gradient(top, #24BE62 0%, #196939 80%);
-  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#24BE62), color-stop(80%,#196939));
+  background: -moz-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -webkit-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -o-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -ms-linear-gradient(top, #24BE62 0%, #196939 60%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#24BE62), color-stop(60%,#196939));
 }
 .purple-gradient {
   padding: 30px 30px 30px 30px;
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#AC82B8, endColorstr=#725A79);
-  background: -moz-linear-gradient(top, #AC82B8 0%, #725A79 80%);
-  background: linear-gradient(top, #AC82B8 0%, #725A79 80%);
-  background: -webkit-linear-gradient(top, #AC82B8 0%, #725A79 80%);
-  background: -o-linear-gradient(top, #AC82B8 0%, #725A79 80%);
-  background: -ms-linear-gradient(top, #AC82B8 0%, #725A79 80%);
-  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#AC82B8), color-stop(80%,#725A79));
+  background: -moz-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -webkit-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -o-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -ms-linear-gradient(top, #AC82B8 0%, #725A79 60%);
+  background: -webkit-gradient(linear, right top, right bottom, color-stop(0%,#AC82B8), color-stop(60%,#725A79));
 }
 #board{
   display: inline-block;
@@ -127,16 +127,56 @@
   text-align: center;
   padding: 0 0 0 0;
   margin: 10px 10px 10px 10px;
-  height: 27vmax;
   width: 27vmax;
 }
 .profilephoto {
-  height: 25vmax;
+  width: 20vmax;
+  height: 20vmax;
+  display: inline-block;
   border-radius: 13vmax;
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 10px 5px;
+  background-position: center center;
+  background-size: cover;
   cursor: pointer;
 }
+#amanda {
+  background-image: url("/images/Amanda.jpg");
+}
+#crystal {
+  background-image: url("/images/Crystal.jpg");
+}
+#adrianna {
+  background-image: url("/images/Adrianna.jpg");
+}
+#leon {
+  background-image: url("/images/Leon.jpg");
+}
+#shahul {
+  background-image: url("/images/Shahul.jpg");
+}
+#lia {
+  background-image: url("/images/Lia.jpg");
+}
+#tam {
+  background-image: url("/images/Tam.jpg");
+}
+#jiaxing {
+  background-image: url("/images/Jiaxing.jpg");
+}
+#sylvia {
+  background-image: url("/images/Sylvia.jpg");
+}
+#hyunji {
+  background-image: url("/images/Hyunji.jpg");
+}
+#patricia {
+  background-image: url("/images/Patricia.jpg");
+}
+#isabel {
+  background-image: url("/images/Isabel.jpg");
+}
+
 .profile-title {
   font-family: 'Rajdhani', sans-serif;
   color: white;
@@ -225,6 +265,9 @@
   background-color: gray;
 }
 
+.nav-link.application a{
+  cursor: default;
+}
 
 .nav-link:not(.application) a:hover  {
   background-color: #131b75;

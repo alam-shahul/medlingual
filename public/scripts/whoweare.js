@@ -45,7 +45,8 @@ $(document).ready(function() {
     "hyunji": "Hyunji is an MIT student intending to major in Computer Science and Molecular Biology (6-7) or Brain and Cognitive Science (9). She is currently researching in the Graybiel Lab on the topic of computational analysis of the brain activity during decision-making in a mouse model. She is enthusiastic to find ways to apply the skills and knowledge she has to help others.",
     "adrianna": "I am a course 20 junior who loves food, netflix, and her puppy. I got involved with Medlingual because I have family and friends who are immigrants and I want everyone to be able to have access to medical care without the barrier of language!",
     "patricia": "Local of the Boston area, mentored recent immigrant middle school students in high school, so I understand the difficulties of language and cultural barriers, like to curl up with a good book and some relaxing music in my free time",
-    "lia": "Outside of academics, I enjoy the arts and music. I have learned to play the violin and cello, and currently play the double bass and piano. Since coming to MIT, I have also embraced my inner grandma and spend a lot of my free time making amigurumi, crocheting granny squares, knitting, and cross stitching. Also from observing my attachment to the cats on my floor of East Campus, I have a serious concern that I will become a crazy cat lady when I get older."
+    "lia": "Outside of academics, I enjoy the arts and music. I have learned to play the violin and cello, and currently play the double bass and piano. Since coming to MIT, I have also embraced my inner grandma and spend a lot of my free time making amigurumi, crocheting granny squares, knitting, and cross stitching. Also from observing my attachment to the cats on my floor of East Campus, I have a serious concern that I will become a crazy cat lady when I get older.",
+    "shahul": "Hi there! I'm a Course 6-3 junior from Bentonville, Arkansas. English is my first language; I also speak Bengali (due to my heritage) and Spanish (thanks to my schooling). At a personal level, I really resonate with the mission of Medlingual in that I understand the difficulties posed by multilingual interactions in which the two parties don't share a common language, and I'm excited about the potential of Medlingual to change that in the Boston area.\n\nOutside of school, I love to play soccer, fold origami, and play my saxophone."
   };
 
   var nameMap = {
@@ -57,6 +58,7 @@ $(document).ready(function() {
     "hyunji": "Hyunji Kim",
     "adrianna": "Adrianna (Audri) Amaro",
     "patricia": "Patricia Chan",
-    "lia": "Lia Tian"
+    "lia": "Lia Tian",
+    "shahul": "Shahul Alam"
   };
 });
