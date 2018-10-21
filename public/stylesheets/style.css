@@ -35,6 +35,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  #height: 100%;
+  #overflow: overlay;
   width: 100%;
   text-align: center;
 }
@@ -69,23 +71,81 @@
 #intro .title {
   font-size: 3em;
 }
+
+/******* WhoWeAre *******/
+/* Modal styles */
+.modal {
+  /* display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 500px;
+}
+
+.modal-title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 2.5em;
+}
+.modal-description {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.5em;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Other profile stuff*/
 .profiletable {
+  /*height:100%;*/
   margin: auto;
 }
 .profiletable td{
   text-align: center;
+  padding: 0 0 0 0;
   margin: 10px 10px 10px 10px;
+  height: 27vmax;
+  width: 27vmax;
 }
 .profilephoto {
-  height: 200px;
-  border-radius: 100px;
+  height: 25vmax;
+  border-radius: 13vmax;
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 10px 5px;
+  cursor: pointer;
 }
-.profiletitle {
+.profile-title {
   font-family: 'Rajdhani', sans-serif;
   color: white;
   font-size: 2em;
+}
+.profile-description {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 1.5em;
 }
 
 /***** Navbar *****/
@@ -147,6 +207,7 @@
 .right-nav li {
   display:inline-block;
   margin: 0;
+  padding: 0;
   font-size: 1.1em;
 }
 
@@ -156,10 +217,16 @@
   text-decoration: none;
   color:black;
   height:80px;
-//  display:inline-block;
+  display:inline-block;
 }
 
-.nav-link a:hover {
+/* Temporary disabling of IAP Class Application */
+.nav-link.application {
+  background-color: gray;
+}
+
+
+.nav-link:not(.application) a:hover  {
   background-color: #131b75;
   color:white;
 }
