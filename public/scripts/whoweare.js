@@ -39,7 +39,7 @@ $(document).ready(function() {
   var descriptionMap = {
     "crystal": "Course 7 with minor in 21M (Theater) and a UROP in 9. Besides Medlingual <3, I dance with ADT/DT, teach for Splash and DynaMIT, and skate with MIT FSC! I'm also interested in healthcare policy and hope to do something with the WHO, UN, or Doctors Without Borders someday :) In no particular order, I love cells, music/performing arts, the green checkmark on MITx, and hanging out with good friends, even if Boston makes our wallets sad. My favorite element is carbon *in air quotes* ORGANIC",
     "isabel": "I plan on majoring in 18 and 6-3 with a minor in Spanish and possibly also stats and data science. I'm on the varsity dive team and somehow the MacGregor badminton team. I'm from near Chicago (deep dish pizza is the best)!",
-    "sylvia": "I am from sunny Southern California. In my spare time, I like listening to music and dancing. I look forward to meeting new people and getting more involved in volunteer activities through Medlingual.",
+    "silvia": "I am from sunny Southern California. In my spare time, I like listening to music and dancing. I look forward to meeting new people and getting more involved in volunteer activities through Medlingual.",
     "leon": "I am a course 5-7 from Taipei, Taiwan. I grew up speaking both English and Mandarin. When I was in high school, I attended an American school, which spoke English exclusively; however, whenever we had to communicate with vendors or non-school faculty, we would need to transition into speaking mandarin. Growing up, I have had many experiences of running into people who needed to communicate across significant language barriers and have always enjoyed seeing the relief in one's eyes when someone could step up to the plate to resolve any difficulties one met. ",
     "jiaxing": "Hi!! I'm a Course 7 also interested in neuroscience. I took four years of Latin in high school and a year of Greek at MIT, but I have yet to meet anyone who speaks either. I also love doing crossword puzzles with friends!",
     "hyunji": "Hyunji is an MIT student intending to major in Computer Science and Molecular Biology (6-7) or Brain and Cognitive Science (9). She is currently researching in the Graybiel Lab on the topic of computational analysis of the brain activity during decision-making in a mouse model. She is enthusiastic to find ways to apply the skills and knowledge she has to help others.",
@@ -52,7 +52,7 @@ $(document).ready(function() {
   var nameMap = {
     "crystal": "Crystal Chang",
     "isabel": "Isabel Rosa",
-    "sylvia": "Silvia Cao",
+    "silvia": "Silvia Cao",
     "leon": "Leon Yim",
     "jiaxing": "Jiaxing Liu",
     "hyunji": "Hyunji Kim",
