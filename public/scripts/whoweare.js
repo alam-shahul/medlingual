@@ -46,7 +46,8 @@ $(document).ready(function() {
     "adrianna": "I am a course 20 junior who loves food, netflix, and her puppy. I got involved with Medlingual because I have family and friends who are immigrants and I want everyone to be able to have access to medical care without the barrier of language!",
     "patricia": "Local of the Boston area, mentored recent immigrant middle school students in high school, so I understand the difficulties of language and cultural barriers, like to curl up with a good book and some relaxing music in my free time",
     "lia": "Outside of academics, I enjoy the arts and music. I have learned to play the violin and cello, and currently play the double bass and piano. Since coming to MIT, I have also embraced my inner grandma and spend a lot of my free time making amigurumi, crocheting granny squares, knitting, and cross stitching. Also from observing my attachment to the cats on my floor of East Campus, I have a serious concern that I will become a crazy cat lady when I get older.",
-    "shahul": "Hi there! I'm a Course 6-3 junior from Bentonville, Arkansas. English is my first language; I also speak Bengali (due to my heritage) and Spanish (thanks to my schooling). At a personal level, I really resonate with the mission of Medlingual in that I understand the difficulties posed by multilingual interactions in which the two parties don't share a common language, and I'm excited about the potential of Medlingual to change that in the Boston area.\n\nOutside of school, I love to play soccer, fold origami, and play my saxophone."
+    "shahul": "Hi there! I'm a Course 6-3 junior from Bentonville, Arkansas. English is my first language; I also speak Bengali (due to my heritage) and Spanish (thanks to my schooling). At a personal level, I really resonate with the mission of Medlingual in that I understand the difficulties posed by multilingual interactions in which the two parties don't share a common language, and I'm excited about the potential of Medlingual to change that in the Boston area.\n\nOutside of school, I love to play soccer, fold origami, and play my saxophone.",
+    "tam": "1) Course 20, UROP in Langer Lab on oral stem cells and mucosa regeneration 2) love dancing, kpop, classical music, binge watch grey's anatomy 3) live on Burton 4 4) not sure what I wanna do but generally make a significant impact on health care for people around the world"
   };
 
   let nameMap = {
@@ -59,6 +60,7 @@ $(document).ready(function() {
     "adrianna": "Adrianna (Audri) Amaro",
     "patricia": "Patricia Chan",
     "lia": "Lia Tian",
-    "shahul": "Shahul Alam"
+    "shahul": "Shahul Alam",
+    "tam": "Tam Nguyen"
   };
 });
