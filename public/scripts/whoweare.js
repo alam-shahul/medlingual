@@ -1,19 +1,19 @@
 $(document).ready(function() {
   // Points modal logic
-  var execModal = document.getElementById('exec-modal');
-  var modalDescription = $(".modal-description");
-  var modalTitle = $(".modal-title");
-  var modalLinks = document.getElementsByClassName('profilephoto');
+  let execModal = document.getElementById('exec-modal');
+  let modalDescription = $(".modal-description");
+  let modalTitle = $(".modal-title");
+  let modalLinks = document.getElementsByClassName('profilephoto');
   console.log(modalLinks);
-  var modalX = document.getElementById('modal-close');
+  let modalX = document.getElementById('modal-close');
 
   // When the user clicks on the button, open the modal and update text
-  for (var mLink of modalLinks) {
+  for (let mLink of modalLinks) {
     try {
       throw mLink;
     }
     catch(modalLink) {
-      var key = $(modalLink).attr('id'); 
+      let key = $(modalLink).attr('id'); 
       modalLink.onclick = function() {
         execModal.style.display = 'block';
         $(modalTitle).text(nameMap[$(modalLink).attr('id')]);
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
   // Exec profile descriptions
 
-  var descriptionMap = {
+  let descriptionMap = {
     "crystal": "Course 7 with minor in 21M (Theater) and a UROP in 9. Besides Medlingual <3, I dance with ADT/DT, teach for Splash and DynaMIT, and skate with MIT FSC! I'm also interested in healthcare policy and hope to do something with the WHO, UN, or Doctors Without Borders someday :) In no particular order, I love cells, music/performing arts, the green checkmark on MITx, and hanging out with good friends, even if Boston makes our wallets sad. My favorite element is carbon *in air quotes* ORGANIC",
     "isabel": "I plan on majoring in 18 and 6-3 with a minor in Spanish and possibly also stats and data science. I'm on the varsity dive team and somehow the MacGregor badminton team. I'm from near Chicago (deep dish pizza is the best)!",
     "silvia": "I am from sunny Southern California. In my spare time, I like listening to music and dancing. I look forward to meeting new people and getting more involved in volunteer activities through Medlingual.",
@@ -49,7 +49,7 @@ $(document).ready(function() {
     "shahul": "Hi there! I'm a Course 6-3 junior from Bentonville, Arkansas. English is my first language; I also speak Bengali (due to my heritage) and Spanish (thanks to my schooling). At a personal level, I really resonate with the mission of Medlingual in that I understand the difficulties posed by multilingual interactions in which the two parties don't share a common language, and I'm excited about the potential of Medlingual to change that in the Boston area.\n\nOutside of school, I love to play soccer, fold origami, and play my saxophone."
   };
 
-  var nameMap = {
+  let nameMap = {
     "crystal": "Crystal Chang",
     "isabel": "Isabel Rosa",
     "silvia": "Silvia Cao",
